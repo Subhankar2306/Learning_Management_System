@@ -36,11 +36,12 @@
 }
 html{
   font-size: 62.5%;
-  overflow: hidden;
+  overflow: auto;
 }
 body{
     background-color: var(--light-bg);
     padding-left: 30rem;
+    overflow: auto;
 }
 body.active{
   padding-left: 0;
@@ -287,13 +288,13 @@ section{
   background-color: var(--white);
   padding: 2rem;
   border-radius: .5rem;
-  text-align: center;
+  /* text-align: start; */
   box-shadow: 0 2px 10px rgba(0,0,0,.1);
 }
 .quick-select .box-container .box .title{
   font-size: 2rem;
   color: var(--black);
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 .quick-select .box-container .box p{
   font-size: 1.8rem;
@@ -304,43 +305,42 @@ section{
 }
 .quick-select .box-container .box p span{
   color: var(--main-color);
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 .quick-select .box-container .tutor{
   text-align: center;
 }
 .quick-select .box-container .tutor p{
-  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 .quick-select .box-container .box .flex{
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 .quick-select .box-container .box .flex a{
   padding: 1rem 1.5rem;
   border-radius: .5rem;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   background-color: var(--light-bg);
 }
 .quick-select .box-container .box .flex a i{
-  margin-top: 1rem;
+  margin-right: 1rem;
   color: var(--black);
 }
 .quick-select .box-container .box .flex a span{
-  margin-left: .5rem;
+  /* margin-left: .5rem; */
   color: var(--light-color);
 }
-.quick-select .box-container .box .flex a :hover{
-  background-color: var(--main-color);
+.quick-select .box-container .box .flex a:hover{
+  background-color: var(--black);
+  /* color: #fff; */
+}
+.quick-select .box-container .box .flex a:hover i,
+.quick-select .box-container .box .flex a:hover span{
   color: #fff;
 }
-.quick-select .box-container .box .flex a :hover i,
-.quick-select .box-container .box .flex a :hover span{
-  color: #fff;
-}
-
 
 
 
