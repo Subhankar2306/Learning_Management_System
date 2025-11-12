@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root{
-  --main-color: #83bdec;
+  --main-color: #3993dd;
   --red: #e74c3c;
   --orange: #f39c12;
   --black: #2c3e50;
@@ -651,6 +651,110 @@ section{
 .playlist-videos .box-container .box:hover h3{
    color: var(--main-color);
 }
+
+.watch-video .video-details{
+  background-color: var(--white);
+  padding: 2rem;
+}
+.watch-video .video-details .video{
+  width: 100%;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+}
+.watch-video .video-details .title{
+  font-size: 2rem;
+  color: var(--black);
+  padding: 1.5rem 0;
+}
+.watch-video .video-details .info{
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: var(--border);
+}
+.watch-video .video-details .info p{
+  font-size: 1.5rem;
+}
+.watch-video .video-details .info p i{
+  margin-right: 1rem;
+  color: var(--main-color);
+}
+.watch-video .video-details .info p span{
+  color: var(--light-color);
+}
+.watch-video .video-details .tutor{
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.watch-video .video-details .tutor img{
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.watch-video .video-details .tutor h3{
+  font-size: 2rem;
+  color: var(--black);
+  margin-bottom: .2rem;
+}
+.watch-video .video-details .tutor span{
+  color: var(--main-color);
+  font-size: 1.5rem;
+}
+.watch-video .video-details .flex{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+.watch-video .video-details .flex a{
+  margin-top: 0;
+
+}
+.watch-video .video-details .flex button{
+  background-color: var(--light-bg);
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  font-size: 2rem;
+  border-radius: .5rem;
+}
+.watch-video .video-details .flex button i{
+  color: var(--red);
+  margin-right: 1rem;
+
+}
+.watch-video .video-details .flex button span{
+  color: var(--light-color);
+}
+.watch-video .video-details .flex button:hover{
+  background-color: var(--black);
+}
+.watch-video .video-details .flex button:hover i{
+  color: var(--white);
+}
+.watch-video .video-details .flex button:hover span{
+  color: var(--white);
+}
+.watch-video .video-details .descripton{
+  padding-top: 2rem;
+
+}
+.watch-video .video-details .descripton p{
+  line-height: 2;
+  font-size: 1.5rem;
+  color: var(--light-color);
+  white-space: pre-line;
+}
+
+
+
+
+
+
+
+
 
 
 
